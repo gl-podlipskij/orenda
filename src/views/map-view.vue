@@ -37,7 +37,7 @@ onMounted(()=>{
   map.value = new maplibregl.Map({
     container: 'map',
     style:
-        'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_VtkrO7fbflhEO1PEi1SE',
+        'https://api.maptiler.com/maps/streets/style.json?key=VtkrO7fbflhEO1PEi1SE',
     center: parseCoordinateQuery(routeStore.query) ?? [0, 0],
     zoom: 1,
   });
