@@ -21,7 +21,7 @@ const usePropertyStore = defineStore('property', {
                 loadingStatus : 'idle',
                 loadingError : null,
             });
-            const res = await fetch(`http://localhost:5173/data/data.json`);
+            const res = await fetch(`https://orenda-iota.vercel.app/data/data.json`);
             const properties = (await res.json() as {properties:Property[]}).properties;
 
             const property = properties.find(p => {

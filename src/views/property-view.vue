@@ -27,7 +27,7 @@ watchEffect(() => {
       <ui-card class='w-full flex sm:flex-row sm:justify-between' v-if="propertyStore.property !== undefined" size="xl">
         <img
             class="aspect-ratio w-1/3 min-w-sm"
-            v-bind:src="`http://localhost:5173/images/${propertyStore.property.previewImage}`"
+            v-bind:src="`https://orenda-iota.vercel.app/images/${propertyStore.property.previewImage}`"
             alt=""
         />
         <div class='flex flex-col gap-1 m-5'>

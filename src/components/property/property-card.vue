@@ -12,7 +12,7 @@ export type PropertyCardProps = {
 const props = defineProps<PropertyCardProps>();
 
 const previewUrl = computed(() => {
-  return `http://localhost:5173/images/${props.property.previewImage}`;
+  return `https://orenda-iota.vercel.app/images/${props.property.previewImage}`;
 });
 const onClick = ()=>{
   router.push(`/property/${props.property.id}`);

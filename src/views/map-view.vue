@@ -68,7 +68,7 @@ watch(properties, ()=>{
         if (map.value === undefined) return;
         const coords = property.geometry.coordinates as Coordinate;
         const preview = document.createElement("div");
-        preview.style.backgroundImage = `url(http://localhost:5173/images/${property.previewImage})`;
+        preview.style.backgroundImage = `url(https://orenda-iota.vercel.app/images/${property.previewImage})`;
         preview.style.backgroundSize = 'cover';
 
         preview.addEventListener('click', ()=>{

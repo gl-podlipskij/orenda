@@ -29,7 +29,7 @@ const usePropertiesStore = defineStore('properties',{
             this.$patch({
                 loadingStatus : 'idle',
             });
-            const response = await fetch('http://localhost:5173/data/data.json').catch(err=>{
+            const response = await fetch('https://orenda-iota.vercel.app/data/data.json').catch(err=>{
                 this.$patch({
                     loadingStatus : 'error',
                     loadingError:err,
