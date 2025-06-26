@@ -19,12 +19,8 @@ const regions = computed(() => {
   return locationStore.getAllRegions(city?.value ?? '');
 });
 
-const city = ref<string>(
-    routerStore.query[CITY_QUERY] ? decodeURI(routerStore.query[CITY_QUERY]) : undefined,
-);
-const region = ref<string>(
-    routerStore.query[REGION_QUERY] ? decodeURI(routerStore.query[REGION_QUERY]) : undefined,
-);
+const city = ref<string>(routerStore.query[CITY_QUERY] ? decodeURI(routerStore.query[CITY_QUERY] as string) : '');
+const region = ref<string>(routerStore.query[REGION_QUERY] ? decodeURI(routerStore.query[REGION_QUERY] as  string) : '');
 
 
 </script>

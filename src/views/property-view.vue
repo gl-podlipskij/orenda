@@ -40,6 +40,7 @@ watchEffect(() => {
               class='mt-4'
               v-bind:point="propertyStore.property.geometry"
               v-bind:link="`/map/?query=${propertyStore.property.name}`"
+              v-bind:location="propertyStore.property.location"
           />
         </div>
       </ui-card>

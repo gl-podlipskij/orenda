@@ -53,7 +53,7 @@ watch(properties, ()=>{
       propertiesStore.properties !== undefined
       && map.value !== undefined
   ) {
-    markers.value?.forEach(marker => marker.remove());
+    markers.value.forEach(marker => marker.remove());
     const properties = propertiesStore.properties;
     const coordinates = properties.map(property=>property.geometry.coordinates as Coordinate);
     const center = calculateCenter(coordinates);
@@ -63,8 +63,9 @@ watch(properties, ()=>{
         center: center,
     });
 
-
-    return properties.forEach(property=>{
+    const newMarkers:maplibregl.Marker[] = [];
+    properties.forEach(property=>{
+        if (map.value === undefined) return;
         const coords = property.geometry.coordinates as Coordinate;
         const preview = document.createElement("div");
         preview.style.backgroundImage = `url(http://localhost:5173/images/${property.previewImage})`;
@@ -89,10 +90,11 @@ watch(properties, ()=>{
         preview.style.borderRadius = '50%';
         const marker =  new maplibregl.Marker({element : preview}).
         setLngLat(coords).
-        addTo(map?.value);
-        markers.value?.push(marker);
-
-    })
+        addTo(map.value);
+        newMarkers.push(marker);
+    });
+    markers.value = newMarkers;
+    return newMarkers;
   }
 })
 
