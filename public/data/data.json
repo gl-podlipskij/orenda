@@ -1,0 +1,602 @@
+{"properties":[
+  {
+    "id": "1",
+    "name": "Затишний будинок на Подолі",
+    "description": "Просторий будинок з видом на Дніпро, ідеально підходить для сімейного відпочинку.",
+    "price": 250000,
+    "location": "Київ, Поділ",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5167, 50.4667]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "2",
+    "name": "Сучасна квартира в центрі",
+    "description": "Стильна квартира з ремонтом та всіма зручностями, поруч з основними визначними місцями.",
+    "price": 120000,
+    "location": "Київ, Центр",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5238, 50.4492]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "3",
+    "name": "Офіс біля метро",
+    "description": "Просторий офіс в бізнес-центрі, зручна транспортна розв'язка.",
+    "price": 80000,
+    "location": "Київ, Оболонь",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5000, 50.5000]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "4",
+    "name": "Будинок біля лісу",
+    "description": "Заміський будинок для тих, хто цінує спокій та природу.",
+    "price": 180000,
+    "location": "Київська область, Бориспільський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.9500, 50.3500]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "5",
+    "name": "Квартира в новобудові",
+    "description": "Світла квартира з панорамними вікнами, готова до заселення.",
+    "price": 95000,
+    "location": "Київ, Печерськ",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5400, 50.4200]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "6",
+    "name": "Офісне приміщення з ремонтом",
+    "description": "Готовий до використання офіс в діловому районі міста.",
+    "price": 70000,
+    "location": "Київ, Голосіївський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5100, 50.3900]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "7",
+    "name": "Котедж біля озера",
+    "description": "Шикарний котедж з власним виходом до озера, ідеальний для відпочинку.",
+    "price": 300000,
+    "location": "Київська область, Вишгородський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.4000, 50.7000]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "8",
+    "name": "Студія в історичному центрі",
+    "description": "Компактна квартира-студія з видом на старий Київ.",
+    "price": 60000,
+    "location": "Київ, Шевченківський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5150, 50.4500]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "9",
+    "name": "Офіс з панорамним видом",
+    "description": "Ексклюзивний офіс на високому поверсі з неперевершеним видом на місто.",
+    "price": 100000,
+    "location": "Київ, Печерськ",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5500, 50.4300]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "10",
+    "name": "Дача з садом",
+    "description": "Уютна дача з великим фруктовим садом, підійде для літнього відпочинку.",
+    "price": 45000,
+    "location": "Київська область, Броварський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.8000, 50.5000]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "11",
+    "name": "Двокімнатна квартира біля парку",
+    "description": "Світла двокімнатна квартира з видом на зелений парк.",
+    "price": 85000,
+    "location": "Київ, Дарницький район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.6000, 50.4000]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "12",
+    "name": "Магазинне приміщення",
+    "description": "Приміщення під магазин в прохідному місці.",
+    "price": 90000,
+    "location": "Київ, Деснянський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.6200, 50.5200]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "13",
+    "name": "Вілла з басейном",
+    "description": "Елітна вілла з відкритим басейном та зоною барбекю.",
+    "price": 400000,
+    "location": "Київська область, Обухівський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.6500, 50.1500]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "14",
+    "name": "Однокімнатна квартира",
+    "description": "Компактна та затишна однокімнатна квартира, ідеально для однієї особи.",
+    "price": 55000,
+    "location": "Київ, Солом'янський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.4500, 50.4300]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "15",
+    "name": "Великий офіс для ІТ-компанії",
+    "description": "Просторий офіс з open-space та окремими кабінетами.",
+    "price": 150000,
+    "location": "Київ, Шевченківський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5050, 50.4550]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "16",
+    "name": "Будинок з ремонтом під ключ",
+    "description": "Новий будинок, повністю готовий до заселення, з якісним ремонтом.",
+    "price": 220000,
+    "location": "Київська область, Васильківський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.3000, 50.1000]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "17",
+    "name": "Квартира з видом на річку",
+    "description": "Затишна квартира з чудовим видом на Дніпро.",
+    "price": 130000,
+    "location": "Київ, Дніпровський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5800, 50.4600]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "18",
+    "name": "Невеликий офіс для стартапу",
+    "description": "Компактний та функціональний офіс для молодої команди.",
+    "price": 40000,
+    "location": "Київ, Подільський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5000, 50.4700]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "19",
+    "name": "Трикімнатна квартира",
+    "description": "Простора трикімнатна квартира для великої родини.",
+    "price": 160000,
+    "location": "Київ, Оболонь",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5000, 50.5100]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "20",
+    "name": "Таунхаус",
+    "description": "Сучасний таунхаус з власним двориком та паркінгом.",
+    "price": 190000,
+    "location": "Київська область, Бучанський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.2500, 50.5500]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "21",
+    "name": "Офіс в центрі міста",
+    "description": "Престижний офіс у самому серці столиці.",
+    "price": 110000,
+    "location": "Київ, Печерськ",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5350, 50.4400]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "22",
+    "name": "Будинок з панорамними вікнами",
+    "description": "Ексклюзивний будинок з великими вікнами та видом на місто.",
+    "price": 280000,
+    "location": "Київ, Голосіївський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5000, 50.3800]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "23",
+    "name": "Дворівнева квартира",
+    "description": "Простора дворівнева квартира з терасою.",
+    "price": 170000,
+    "location": "Київ, Солом'янський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.4600, 50.4200]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "24",
+    "name": "Офіс-студія",
+    "description": "Креативний простір для роботи та натхнення.",
+    "price": 65000,
+    "location": "Київ, Шевченківський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5000, 50.4500]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "25",
+    "name": "Будинок з великою ділянкою",
+    "description": "Приватний будинок з великою земельною ділянкою для садівництва.",
+    "price": 200000,
+    "location": "Київська область, Фастівський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [29.9000, 50.0000]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "26",
+    "name": "Квартира з дизайнерським ремонтом",
+    "description": "Ексклюзивна квартира з унікальним дизайнерським ремонтом.",
+    "price": 140000,
+    "location": "Київ, Печерськ",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5450, 50.4350]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "27",
+    "name": "Офіс з меблями",
+    "description": "Повністю мебльований офіс, готовий до використання.",
+    "price": 75000,
+    "location": "Київ, Дарницький район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.6100, 50.4100]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "28",
+    "name": "Новий котедж",
+    "description": "Сучасний котедж з усіма комунікаціями, розташований у мальовничій місцевості.",
+    "price": 270000,
+    "location": "Київська область, Броварський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.8500, 50.5500]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "29",
+    "name": "Квартира-студія біля метро",
+    "description": "Компактна квартира-студія з відмінним доступом до громадського транспорту.",
+    "price": 62000,
+    "location": "Київ, Оболонь",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.4900, 50.5050]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "30",
+    "name": "Офіс з окремим входом",
+    "description": "Офісне приміщення з власним окремим входом.",
+    "price": 88000,
+    "location": "Київ, Дніпровський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5900, 50.4500]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "31",
+    "name": "Будинок в приватному секторі",
+    "description": "Затишний будинок у тихому приватному секторі, недалеко від центру.",
+    "price": 195000,
+    "location": "Київ, Голосіївський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5200, 50.3700]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "32",
+    "name": "Квартира з видом на Дніпро",
+    "description": "Простора квартира з чарівним видом на Дніпро та міст.",
+    "price": 155000,
+    "location": "Київ, Подільський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5100, 50.4650]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "33",
+    "name": "Великий офіс для колл-центру",
+    "description": "Просторе приміщення, ідеальне для розміщення колл-центру.",
+    "price": 135000,
+    "location": "Київ, Солом'янський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.4700, 50.4400]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "34",
+    "name": "Будинок в стилі модерн",
+    "description": "Сучасний будинок з оригінальним архітектурним дизайном.",
+    "price": 320000,
+    "location": "Київська область, Обухівський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.6800, 50.1800]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "35",
+    "name": "Квартира біля озера",
+    "description": "Затишна квартира в будинку, розташованому біля живописного озера.",
+    "price": 115000,
+    "location": "Київ, Дарницький район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.6300, 50.3900]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "36",
+    "name": "Офіс з парковкою",
+    "description": "Офісне приміщення з власною парковкою для співробітників та клієнтів.",
+    "price": 98000,
+    "location": "Київ, Святошинський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.3500, 50.4500]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "37",
+    "name": "Будинок з ремонтом",
+    "description": "Продається будинок з свіжим ремонтом, готовий до проживання.",
+    "price": 210000,
+    "location": "Київська область, Бориспільський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.9000, 50.3200]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "38",
+    "name": "Квартира з видом на місто",
+    "description": "Затишна квартира з чудовим видом на міські пейзажі.",
+    "price": 105000,
+    "location": "Київ, Печерськ",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5550, 50.4250]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "39",
+    "name": "Офіс біля парку",
+    "description": "Тихий та комфортний офіс, розташований поруч з зеленим парком.",
+    "price": 82000,
+    "location": "Київ, Шевченківський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5250, 50.4550]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "40",
+    "name": "Садиба з великою територією",
+    "description": "Простора садиба з доглянутою територією та садом.",
+    "price": 350000,
+    "location": "Київська область, Вишгородський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.4200, 50.7200]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "41",
+    "name": "Двокімнатна квартира в новобудові",
+    "description": "Сучасна двокімнатна квартира в новому житловому комплексі.",
+    "price": 125000,
+    "location": "Київ, Деснянський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.6400, 50.5100]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "42",
+    "name": "Офіс з видом на місто",
+    "description": "Просторий офіс з панорамними вікнами та чудовим видом на міський пейзаж.",
+    "price": 100000,
+    "location": "Київ, Печерськ",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5300, 50.4450]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "43",
+    "name": "Будинок з гаражем",
+    "description": "Приватний будинок з інтегрованим гаражем на дві машини.",
+    "price": 240000,
+    "location": "Київська область, Васильківський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.3300, 50.1200]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "44",
+    "name": "Квартира з балконом",
+    "description": "Затишна квартира з великим балконом, ідеально для ранкової кави.",
+    "price": 92000,
+    "location": "Київ, Оболонь",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.4800, 50.5150]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "45",
+    "name": "Офіс в бізнес-центрі класу А",
+    "description": "Престижний офіс в сучасному бізнес-центрі з усіма зручностями.",
+    "price": 170000,
+    "location": "Київ, Шевченківський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5100, 50.4520]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "46",
+    "name": "Будинок в еко-стилі",
+    "description": "Будинок, побудований з екологічно чистих матеріалів, оточений природою.",
+    "price": 290000,
+    "location": "Київська область, Бучанський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.2700, 50.5600]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "47",
+    "name": "Квартира на високому поверсі",
+    "description": "Світла квартира на високому поверсі з чудовим видом.",
+    "price": 145000,
+    "location": "Київ, Солом'янський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.4650, 50.4250]
+    },
+    "previewImage": "apartment.webp"
+  },
+  {
+    "id": "48",
+    "name": "Коворкінг-простір",
+    "description": "Великий коворкінг-простір для фрілансерів та стартапів.",
+    "price": 120000,
+    "location": "Київ, Подільський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5000, 50.4750]
+    },
+    "previewImage": "office.webp"
+  },
+  {
+    "id": "49",
+    "name": "Будинок з ремонтом під ключ",
+    "description": "Новий будинок, повністю готовий до заселення, з якісним ремонтом.",
+    "price": 220000,
+    "location": "Київська область, Фастівський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [29.9200, 50.0200]
+    },
+    "previewImage": "house.webp"
+  },
+  {
+    "id": "50",
+    "name": "Квартира в історичному центрі",
+    "description": "Елегантна квартира в старовинній будівлі з високими стелями.",
+    "price": 180000,
+    "location": "Київ, Шевченківський район",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [30.5180, 50.4510]
+    },
+    "previewImage": "apartment.webp"
+  }
+]}
