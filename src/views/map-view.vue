@@ -28,7 +28,7 @@ watchEffect(()=>{
 watchEffect( ()=>{
   parseQueryObject(routeStore.query).then(searchParams => {
     propertiesStore.updateSearchParams(searchParams);
-  }).catch((error) => {
+  }).catch(() => {
     router.back();
   })
 });

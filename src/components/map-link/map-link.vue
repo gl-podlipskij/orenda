@@ -2,7 +2,7 @@
 import UiLink from "../ui/link/ui-link.vue";
 import MapIcon from "../icons/map-icon.vue";
 
-const props = defineProps<{
+defineProps<{
   point : GeoJSON.Point;
   location : string;
   link : string;
